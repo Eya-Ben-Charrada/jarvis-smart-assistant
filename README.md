@@ -161,6 +161,11 @@ alsamixer
 ```
 
 
+## 🛠️ Wiring Diagram
+
+Below is the connection diagram for the Raspberry Pi and connected components:
+
+![Wiring Diagram](wiring.png)
 
 
 
