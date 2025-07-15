@@ -139,13 +139,13 @@ jarvis-smart-assistant/
                               |
                               v
                      [Intent Classification]
-         +-----------+-----------+--------------+--------------+
-         |           |           |              |              |
-    Smart Home   Camera     Weather/News    Face ID      LLaMA LLM
-     Actions      & PIR        Queries     (YOLO + FR)   (Local Chat)
-         |           |           |              |              |
-        GPIO     Image/Alert   APIs        Security     Contextual
-       Light      + Telegram                Mode        Conversation
+         +-----------+-----------+--------------+--------------+-------------+
+         |           |           |              |              |             |
+    Smart Home   Camera     Weather/News    Face ID        LLaMA LLM     Music Player
+     Actions      & PIR        Queries     (YOLO + FR)     (Local Chat)    (MP3 Playback)
+         |           |           |              |              |             |
+        GPIO     Image/Alert   APIs        Security       Contextual     pygame + .mp3
+       Light      + Telegram                Mode          Conversation     local folder
 
 ```
 
