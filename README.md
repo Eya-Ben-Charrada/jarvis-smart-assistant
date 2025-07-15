@@ -28,7 +28,7 @@
 | Raspberry Pi 5            | Recommended (3B+ may also work)            |
 | Pi Camera Module          | For photo and video capture                |
 | PIR Motion Sensor         | To detect motion (GPIO-based)              |
-| DHT11 Sensor              | For temperature and humidity               |
+| DHT22 Sensor              | For temperature and humidity               |
 | LED + Resistor            | Connected to GPIO22 for light automation   |
 | Microphone (USB or I2S)   | For capturing voice commands               |
 | Speaker or Audio Output   | For text-to-speech playback                |
@@ -66,6 +66,21 @@ Edit jarvis.py and replace the placeholders:
 TELEGRAM_TOKEN = "your_bot_token"
 CHAT_ID = "your_chat_id"
 ```
+### News Feature Setup
+To enable the news headlines feature using NewsAPI.org:
+
+Get your API Key
+
+- Sign up at https://newsapi.org/register
+
+- After signing in, copy your personal API key from your account page
+
+Add the key to the code
+Open jarvis.py and locate the tell_news() function:
+```bash
+api_key = "your_api_key_here"
+```
+Replace "your_api_key_here" with your actual NewsAPI key.
 
 ### Download LLaMA Model
 Download a quantized .gguf model like TinyLLaMA:
@@ -94,7 +109,7 @@ python3 jarvis.py
 | “Turn on the light”       | Turns GPIO LED on                   |
 | “Take a photo”            | Captures photo via Pi Camera        |
 | “Activate security mode”  | Enables motion + face detection     |
-| “What's the temperature?” | Reads DHT11 sensor                  |
+| “What's the temperature?” | Reads DHT22 sensor                  |
 | “Play music”              | Plays MP3 from local folder         |
 | “Tell me the news”        | Fetches latest headlines (NewsAPI)  |
 | “Shutdown” or “Stop”      | Gracefully shuts down the assistant |
