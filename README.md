@@ -25,7 +25,7 @@
 
 | Component                  | Description                                |
 |---------------------------|--------------------------------------------|
-| Raspberry Pi 4            | Recommended (3B+ may also work)            |
+| Raspberry Pi 5            | Recommended (3B+ may also work)            |
 | Pi Camera Module          | For photo and video capture                |
 | PIR Motion Sensor         | To detect motion (GPIO-based)              |
 | DHT11 Sensor              | For temperature and humidity               |
