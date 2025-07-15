@@ -1,7 +1,6 @@
 # 🤖 JARVIS Lite - AI Home Assistant
 
-![JARVIS Lite Demo](demo.gif)  
-*Demo: JARVIS detecting a person, responding to commands, and controlling lights (replace with actual demo GIF or screenshot)*
+
 
 ---
 
