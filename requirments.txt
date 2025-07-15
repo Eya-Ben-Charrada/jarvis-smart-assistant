@@ -1,0 +1,14 @@
+opencv-python
+face-recognition
+pygame
+sounddevice
+numpy
+whisper
+pyttsx3
+requests
+gpiozero
+Pillow
+adafruit-circuitpython-dht
+python-telegram-bot
+ultralytics
+git+https://github.com/openai/whisper.git
